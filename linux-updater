@@ -1,0 +1,19 @@
+#!/bin/bash
+echo apt-get update
+yes Y | apt-get update
+echo 
+echo apt-get upgrade
+yes Y | apt-get upgrade
+echo 
+echo apt update
+yes Y | apt update
+echo 
+echo apt full-upgrade
+yes Y | apt full-upgrade
+echo 
+echo apt autoremove
+yes Y | apt autoremove
+echo 
+echo Finihed
+
+
