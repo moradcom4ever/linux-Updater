@@ -14,6 +14,9 @@ echo
 echo apt autoremove
 yes Y | apt autoremove
 echo 
+echo apt-get dist-upgrade
+yes Y | apt-get dist-upgrade
+echo 
 echo Finihed
 
 
