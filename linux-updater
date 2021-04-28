@@ -1,22 +1,20 @@
 #!/bin/bash
-echo apt-get update
-yes Y | apt-get update
+echo sudo apt-get update
+yes Y | sudo apt-get update
 echo 
-echo apt-get upgrade
-yes Y | apt-get upgrade
+echo sudo apt-get upgrade
+yes Y | sudo apt-get upgrade
 echo 
-echo apt update
-yes Y | apt update
+echo sudo apt update
+yes Y | sudo apt update
 echo 
-echo apt full-upgrade
-yes Y | apt full-upgrade
+echo sudo apt full-upgrade
+yes Y | sudo apt full-upgrade
 echo 
-echo apt autoremove
-yes Y | apt autoremove
+echo sudo apt autoremove
+yes Y | sudo apt autoremove
 echo 
-echo apt-get dist-upgrade
-yes Y | apt-get dist-upgrade
+echo sudo apt-get dist-upgrade
+yes Y | sudo apt-get dist-upgrade
 echo 
 echo Finihed
-
-
